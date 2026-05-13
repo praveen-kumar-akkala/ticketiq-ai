@@ -1,0 +1,30 @@
+# Environment variables - NEVER commit this
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+venv/
+env/
+.venv/
+
+# Data files - never commit real ticket data
+data/incoming/*.csv
+data/processed/*.csv
+
+# ML model artifacts (can be large)
+ml/models/*.pkl
+ml/models/*.joblib
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
